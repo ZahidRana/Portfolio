@@ -11,7 +11,7 @@ h3{
     padding-bottom: 10px;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .name-highlight{
     color: #1377c9;
@@ -56,4 +56,32 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.bottom-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+h2{
+    font-size: 40px;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    background-color: white;
+}
+#first-box-line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, orange);
+    border-image-slice: 1;
+}
+#second-box-line{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, skyblue, blue);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
